@@ -22,7 +22,7 @@ module.exports = {
   configureWebpack: {
       plugins: [
         new WebpackShellPlugin({
-            onBuildEnd: ['node finalize.js']
+            onBuildEnd: []
         })
       ]
     }
