@@ -2,7 +2,7 @@ import Vue from "vue"
 
 //let host = "ws://"+document.location.host+"/webserialws";
 
- let host = "ws://echo.websocket.org/"; // For Local Testing via npm run serve
+ let host = "wss://echo.websocket.org/"; // For Local Testing via npm run serve
 
 const socket = new WebSocket(host);
 
